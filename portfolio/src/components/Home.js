@@ -1,5 +1,6 @@
 import React from "react";
 import ale_image from "../images/ale_profile.jpeg";
+import NavBar from "./NavBar";
 
 const Home = () => {
   return (
@@ -21,6 +22,9 @@ const Home = () => {
           applications. I am curious about how everything works. Always willing
           to relocate.
         </p>
+      </div>
+      <div className="navegation">
+        <NavBar />
       </div>
     </div>
   );
