@@ -7,7 +7,7 @@ const About = () => {
         <h2>
           About <span>ME</span>
         </h2>
-        <span>Resume</span>
+        <span>Alejandro E. Rodriguez La Rosa</span>
       </div>
       <div className="middle-container">
         <p>
