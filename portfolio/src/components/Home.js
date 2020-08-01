@@ -1,5 +1,6 @@
 import React from "react";
-import ale_image from "./images/ale_profile.jpeg";
+import ale_image from "../images/ale_profile.jpeg";
+import NavBar from "./NavBar";
 
 const Home = () => {
   return (
@@ -17,10 +18,13 @@ const Home = () => {
         <h1>I'm Alejandro E. Rodriguez La Rosa</h1>
         <p>
           I am a Full Stack Web Developer. I live in North Carolina. As a
-          developer I create responsive, accessible and functional websites and
+          developer I create responsive, accessible functional websites and
           applications. I am curious about how everything works. Always willing
           to relocate.
         </p>
+      </div>
+      <div className="navegation">
+        <NavBar />
       </div>
     </div>
   );
