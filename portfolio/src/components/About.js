@@ -1,4 +1,5 @@
 import React from "react";
+import Skills from "./Skills";
 
 const About = () => {
   return (
@@ -25,6 +26,9 @@ const About = () => {
           skills. I thrive to keep learning new technologies, build more
           computer programs and always write much more source code.
         </p>
+      </div>
+      <div className="bottom-container">
+        <Skills />
       </div>
     </div>
   );
