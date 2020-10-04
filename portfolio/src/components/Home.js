@@ -23,7 +23,7 @@ const Home = () => {
           to relocate.
         </p>
       </div>
-      <div className="navegation">
+      <div className="navigation">
         <NavBar />
       </div>
     </div>
