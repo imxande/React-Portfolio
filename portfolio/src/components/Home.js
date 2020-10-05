@@ -17,13 +17,13 @@ const Home = () => {
         <h3>Hi friends!</h3>
         <h1>I'm Alejandro E. Rodriguez La Rosa</h1>
         <p>
-          I am a Full Stack Web Developer. I live in North Carolina. As a
-          developer I create responsive, accessible functional websites and
-          applications. I am curious about how everything works. Always willing
-          to relocate.
+          I am a Full Stack Web Developer. I live in North Carolina and I am
+          willing to relocate. As a developer I create responsive, accessible
+          functional websites and applications. I have always been curious about
+          how everything works.
         </p>
       </div>
-      <div className="navegation">
+      <div className="navigation">
         <NavBar />
       </div>
     </div>
