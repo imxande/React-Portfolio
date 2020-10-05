@@ -1,24 +1,39 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FaHome, FaUser, FaToolbox, FaEnvelopeOpen } from "react-icons/fa";
+import { IconContext } from "react-icons";
 
 const NavBar = () => {
   return (
     <div className="navbar">
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/">
+            <IconContext.Provider value={{ className: "icons" }}>
+              <FaHome />
+            </IconContext.Provider>
+          </Link>
         </li>
         <li>
-          <Link to="/about">About Me</Link>
+          <Link to="/about">
+            <IconContext.Provider value={{ className: "icons" }}>
+              <FaUser />
+            </IconContext.Provider>
+          </Link>
         </li>
         <li>
-          <Link to="/">Portfolio</Link>
+          <Link to="/">
+            <IconContext.Provider value={{ className: "icons" }}>
+              <FaToolbox />
+            </IconContext.Provider>
+          </Link>
         </li>
         <li>
-          <Link to="/">Contact</Link>
-        </li>
-        <li>
-          <Link to="/">Games</Link>
+          <Link to="/">
+            <IconContext.Provider value={{ className: "icons" }}>
+              <FaEnvelopeOpen />
+            </IconContext.Provider>
+          </Link>
         </li>
       </ul>
     </div>
