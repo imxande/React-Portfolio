@@ -1,7 +1,7 @@
 import React from "react";
 import Particles from "react-tsparticles";
 
-const Home = () => {
+const Particle = () => {
   return (
     <div>
       <Particles
@@ -12,34 +12,47 @@ const Home = () => {
               value: "#0d47a1",
             },
           },
-          fpsLimit: 60,
+          fpsLimit: 50,
           interactivity: {
-            detectsOn: "canvas",
             events: {
+              onHover: {
+                enable: true,
+                mode: "bubble",
+              },
               onClick: {
                 enable: true,
                 mode: "push",
               },
-              onHover: {
-                enable: true,
-                mode: "repulse",
-              },
-              resize: true,
             },
             modes: {
               bubble: {
-                distance: 400,
-                duration: 2,
                 opacity: 0.8,
-                size: 40,
+                size: 10,
+                color: {
+                  value: "#ff0000",
+                },
               },
-              push: {
-                quantity: 4,
+            },
+          },
+          particles: {
+            color: {
+              value: "#000",
+            },
+            links: {
+              color: {
+                value: "#000",
               },
-              repulse: {
-                distance: 200,
-                duration: 0.4,
-              },
+              enable: true,
+              opacity: 0.5,
+            },
+            move: {
+              enable: true,
+            },
+            opacity: {
+              value: 0.5,
+            },
+            size: {
+              value: 2,
             },
           },
           particles: {
@@ -89,4 +102,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Particle;

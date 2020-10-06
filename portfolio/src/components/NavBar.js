@@ -20,7 +20,7 @@ const NavBar = () => {
             <FaUser />
           </IconContext.Provider>
           <Link to="/about">
-            <h2 className="navText">About Me</h2>
+            <h2 className="navText">About</h2>
           </Link>
         </li>
         <li className="icon-box">

@@ -1,14 +1,12 @@
 import React from "react";
 import ale_image from "../images/ale_profile.jpeg";
 import NavBar from "./NavBar";
+import Particles from "react-tsparticles";
 import Particle from "./Particle";
 
 const Home = () => {
   return (
     <div>
-      <div className="particles">
-        <Particle />
-      </div>
       <div className="home">
         <div className="hero-image">
           <span>
@@ -31,6 +29,9 @@ const Home = () => {
         <div className="navigation">
           <NavBar />
         </div>
+      </div>
+      <div className="particles">
+        <Particle />
       </div>
     </div>
   );

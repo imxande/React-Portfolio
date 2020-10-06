@@ -1,5 +1,6 @@
 import React from "react";
 import Skills from "./Skills";
+import NavBar from "./NavBar";
 
 const About = () => {
   return (
@@ -29,6 +30,9 @@ const About = () => {
       </div>
       <div className="bottom-container">
         <Skills />
+      </div>
+      <div className="navigation">
+        <NavBar />
       </div>
     </div>
   );
