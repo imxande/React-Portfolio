@@ -9,93 +9,107 @@ const Particle = () => {
         options={{
           background: {
             color: {
-              value: "#0d47a1",
+              value: "#00fff7",
             },
           },
-          fpsLimit: 50,
+          detectRetina: true,
+          fpsLimit: 80,
           interactivity: {
+            detectsOn: "window",
             events: {
               onHover: {
+                mode: "trail",
                 enable: true,
-                mode: "bubble",
-              },
-              onClick: {
-                enable: true,
-                mode: "push",
               },
             },
             modes: {
-              bubble: {
-                opacity: 0.8,
-                size: 10,
-                color: {
-                  value: "#ff0000",
+              trail: {
+                delay: 0.005,
+                quantity: 20,
+                particles: {
+                  color: {
+                    value: "#ff0000",
+                    animation: {
+                      enable: true,
+                      speed: 400,
+                      sync: true,
+                    },
+                  },
+                  collisions: {
+                    enable: false,
+                  },
+                  links: {
+                    enable: false,
+                  },
+                  move: {
+                    outMode: "destroy",
+                    speed: 5,
+                  },
+                  size: {
+                    value: 5,
+                    animation: {
+                      enable: true,
+                      speed: 5,
+                      minimumValue: 1,
+                      sync: true,
+                      startValue: "min",
+                      destroy: "max",
+                    },
+                  },
                 },
               },
             },
+            resize: true,
           },
           particles: {
             color: {
-              value: "#000",
-            },
-            links: {
-              color: {
-                value: "#000",
+              animation: {
+                enable: true,
+                sync: false,
+                speed: 80,
               },
-              enable: true,
-              opacity: 0.5,
-            },
-            move: {
-              enable: true,
-            },
-            opacity: {
-              value: 0.5,
-            },
-            size: {
-              value: 2,
-            },
-          },
-          particles: {
-            color: {
-              value: "#ffffff",
+              value: "#ff0000",
             },
             links: {
-              color: "#ffffff",
-              distance: 150,
+              color: "random",
               enable: true,
-              opacity: 0.5,
-              width: 1,
             },
             collisions: {
               enable: true,
             },
             move: {
-              direction: "none",
               enable: true,
-              outMode: "bounce",
-              random: false,
-              speed: 6,
-              straight: false,
             },
             number: {
               density: {
                 enable: true,
-                value_area: 800,
               },
-              value: 80,
             },
             opacity: {
-              value: 0.5,
-            },
-            shape: {
-              type: "circle",
+              animation: {
+                enable: true,
+                minimumValue: 0.3,
+                speed: 0.5,
+              },
+              value: 0.8,
+              random: {
+                enable: true,
+                minimumValue: 0.3,
+              },
             },
             size: {
-              random: true,
-              value: 5,
+              animation: {
+                enable: true,
+                minimumValue: 1,
+                speed: 3,
+              },
+              value: 3,
+              random: {
+                enable: true,
+                minimumValue: 1,
+              },
             },
           },
-          detectRetina: true,
         }}
       />
     </div>

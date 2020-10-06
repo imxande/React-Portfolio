@@ -19,6 +19,7 @@ img {
 .greeting{
     margin-right: 100px;
     line-height: 50px;
+    
 }
 
 .greeting h3{
@@ -42,7 +43,7 @@ ul {
     position: fixed;
     right: 30px;
     bottom: 0;
-    /* z-index: 3; */
+    z-index: 3;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -117,4 +118,8 @@ li.icon-box{
     background-color: aqua;
   }
 
+.particles{
+      z-index: -1;
+      position: relative;
+  } 
   
