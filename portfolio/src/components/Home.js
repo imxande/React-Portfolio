@@ -5,7 +5,7 @@ import NavBar from "./NavBar";
 const Home = () => {
   return (
     <div className="home">
-      <div className="image">
+      <div className="hero-image">
         <span>
           <img
             src={ale_image}

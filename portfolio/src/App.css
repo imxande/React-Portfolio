@@ -4,7 +4,7 @@
     height: 100vh;
 }
 
-.image{
+.hero-image{
     margin:20px;
     margin-right: 60px; 
 }
@@ -13,12 +13,13 @@ img {
     width: 100%;
     border-radius: 30px;
     box-shadow: 10px 5px 5px rgb(45, 49, 48);
-    height: 40em;
+    height: 35em;
 }
 
 .greeting{
     margin: 0 50px;
     line-height: 50px;
+    border: 1px solid red;
 }
 
 .greeting h3{
@@ -33,6 +34,11 @@ img {
     font-size: x-large;
 }
 
+.navigation{
+    border: 1px solid red;
+
+}
+
 ul {
     list-style-type: none;
 }
@@ -42,29 +48,27 @@ a{
     text-decoration: none;
 }
 
-/* a .navText{
-    max-width: 0;
-  transition: max-width 0.5s;
-  display: inline-block;
-  vertical-align: top;
-  white-space: nowrap;
-  overflow: hidden;
-
+li.icon-box{
+    width: 50px;
+    height: 50px;
+    list-style: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    transition: .3s;
+    margin: 20px 0;
+    border-radius: 50%;
+    background: #2b2a2a;
 }
 
-a:hover .navText{
-    max-width: 7rem;
-   transition-delay: 0.1s;
-} */
-
-li{
+/* li{
     margin: 10px 0;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
     border: 1px solid white;
     border-radius: 50%;
     margin: 20px;
     background-color: antiquewhite;
-    position: relative;
+    overflow: hidden;
 }
 
 li:hover{
@@ -75,44 +79,10 @@ li:hover{
     color: gray;
     padding: 15px;
     font-size: large;
-    z-index: 999;    
 }
 
 .icons:hover{
     color:white;
-    transition: 0.5s;
+    transition: 0.8s;
 }
-
-.slider {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 12px;
-    width: 0px;
-    height: 50px;
-    background: #eebb5c;
-    border-radius: 3px;
-    transition: all 0.5s 0.3s ease;
-  }
-  
-  .slider p {
-    font-family: arial;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: 900;
-    color: #fff;
-    text-align: center;
-    line-height: 50px;
-    opacity: 0;
-    transition: all 0.6s ease;
-  }
-
-  ul li:hover .slider {
-    width: 110px;
-    transition: all 0.5s ease;
-  }
-  
-  ul li:hover .slider p {
-    opacity: 1;
-    transition: all 1s 0.2s ease;
-  }
+ */

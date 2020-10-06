@@ -7,44 +7,36 @@ const NavBar = () => {
   return (
     <div className="navbar">
       <ul>
-        <li>
+        <li className="icon-box">
+          <IconContext.Provider value={{ className: "icons" }}>
+            <FaHome />
+          </IconContext.Provider>
           <Link to="/">
-            <div className="slider">
-              <p className="navText">Home</p>
-            </div>
-            <IconContext.Provider value={{ className: "icons" }}>
-              <FaHome />
-            </IconContext.Provider>
+            <h2 className="navText">Home</h2>
           </Link>
         </li>
-        <li>
+        <li className="icon-box">
+          <IconContext.Provider value={{ className: "icons" }}>
+            <FaUser />
+          </IconContext.Provider>
           <Link to="/about">
-            <div className="slider">
-              <p className="navText">About Me</p>
-            </div>
-            <IconContext.Provider value={{ className: "icons" }}>
-              <FaUser />
-            </IconContext.Provider>
+            <h2 className="navText">About Me</h2>
           </Link>
         </li>
-        <li>
+        <li className="icon-box">
+          <IconContext.Provider value={{ className: "icons" }}>
+            <FaToolbox />
+          </IconContext.Provider>
           <Link to="/">
-            <div className="slider">
-              <p className="navText">Projects</p>
-            </div>
-            <IconContext.Provider value={{ className: "icons" }}>
-              <FaToolbox />
-            </IconContext.Provider>
+            <h2 className="navText">Projects</h2>
           </Link>
         </li>
-        <li>
+        <li className="icon-box">
+          <IconContext.Provider value={{ className: "icons" }}>
+            <FaEnvelopeOpen />
+          </IconContext.Provider>
           <Link to="/">
-            <div className="slider">
-              <p className="navText">Contact</p>
-            </div>
-            <IconContext.Provider value={{ className: "icons" }}>
-              <FaEnvelopeOpen />
-            </IconContext.Provider>
+            <h2 className="navText">Contact</h2>
           </Link>
         </li>
       </ul>
