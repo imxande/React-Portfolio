@@ -63,7 +63,9 @@ const About = () => {
           <div className="right-side">
             <ul>
               <li>
-                <IconContext.Provider value={{ className: "aboutIcon" }}>
+                <IconContext.Provider
+                  value={{ className: "aboutIcon linkedin" }}
+                >
                   <FaLinkedin />
                 </IconContext.Provider>
                 <a href="https://www.linkedin.com/in/alejandro-e-rodriguez/">
@@ -71,13 +73,15 @@ const About = () => {
                 </a>
               </li>
               <li>
-                <IconContext.Provider value={{ className: "aboutIcon" }}>
+                <IconContext.Provider value={{ className: "aboutIcon github" }}>
                   <FaGithub />
                 </IconContext.Provider>
                 <a href="https://github.com/imxande">Github</a>
               </li>
               <li>
-                <IconContext.Provider value={{ className: "aboutIcon" }}>
+                <IconContext.Provider
+                  value={{ className: "aboutIcon twitter" }}
+                >
                   <FaTwitter />
                 </IconContext.Provider>
                 <a href="https://twitter.com/ale_rodriguez91">Twitter</a>

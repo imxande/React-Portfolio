@@ -5,7 +5,6 @@
     margin: 0 auto;
     position: relative;
     padding: 50px 0;
-    border: 1px solid red;
 }
 
 .top-container h2{
@@ -66,7 +65,6 @@
 }
 
 .middle-container .right-container .right-side{
-    /* border: 3px solid red; */
     margin-left: 30px;
 }
 
@@ -79,12 +77,30 @@
     font-size: xx-large;
 }
 
+.middle-container .right-container .right-side li :hover{
+    color: rgba(0, 0, 0, 0.582)
+}
+
 .middle-container .right-container .right-side a {
     text-decoration: none;
+    color: darkgray;
 }
 
 .aboutIcon{
     margin: 10px;
+    color: darkgrey;
+}
+
+.linkedin{
+    color:#2867B2;
+}
+
+.github{
+    color:#24292e;
+}
+
+.twitter {
+    color:#1DA1F2;
 }
 
 .bottom-container{
