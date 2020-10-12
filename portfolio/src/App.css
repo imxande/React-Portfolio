@@ -6,7 +6,7 @@
 }
 
 .hero-image{
-    margin:20px;
+    margin: 20px;
     margin-right: 60px; 
 }
 
@@ -19,7 +19,7 @@ img {
 .greeting{
     margin-right: 100px;
     line-height: 50px;
-    
+    color:#2d545e
 }
 
 .greeting h3{
@@ -75,7 +75,7 @@ li.icon-box{
     transition: .3s;
     margin: 20px 0;
     border-radius: 50%;
-    background: gray;
+    background: #2d545e
 }
 
 .icons{
@@ -87,6 +87,7 @@ li.icon-box{
     display: block;
     text-align: center;
     font-size: 25px;
+    color: gray;
 }
 
  li.icon-box.active,li.icon-box:hover, li.icon-box.active .icons, li.icon-box:hover .icons {
@@ -115,11 +116,46 @@ li.icon-box{
     margin: 0;
     text-align: center;
     border-radius: 30px 0 0 30px;
-    background-color: aqua;
+    background-color: #2d545e;
   }
 
 .particles{
       z-index: -1;
       position: relative;
   } 
+
+  .download{
+    width: 15rem;
+    line-height: 2em;
+    text-align: center;
+    border-radius: 26px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 5px 5px rgb(45, 49, 48);
+    text-decoration: none;
+    color: darkslategrey;
+    background-color: whitesmoke;
+    border: 1px solid gray;
+  }
+
+  .download span {
+      font-size: larger;
+      margin: 5px 10px;
+  }
+  .download:hover{
+      color:white;
+      transition: .7s;
+      background-color: teal;
+      cursor: pointer;
+  }
+
+  .downloadIcon{
+      font-size: x-large;
+      display: none;
+  }
   
+  .download:hover .downloadIcon{
+      display: inline;
+  }

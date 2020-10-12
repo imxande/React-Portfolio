@@ -1,0 +1,76 @@
+.about{
+ background-color: #00fff7; 
+}
+
+.top-container{
+    border: 1px solid red;
+    text-align: center;
+    /* margin: 30px; */
+    font-size: 60px;
+    font-weight: 800;
+    padding: 80px 0;
+    margin: 0 auto;
+    position: relative;
+    padding: 80px 0;
+}
+
+.top-container h2{
+    font-size: 56px;
+    font-weight: 900;
+    color: gray;   
+}
+
+.top-container span{
+    font-size: 110px;
+    left: 0;
+    letter-spacing: 10px;
+    line-height: 0.7;
+    position: absolute;
+    right: 0;
+    top: 30%;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: rgba(30, 37, 48, 0.07);
+}
+
+.middle-container{
+    display:flex;
+}
+
+.middle-container .left-container{
+    border:1px solid red;
+    width: 50%;
+    margin: 20px;
+    font-size: x-large;
+    line-height: 2;
+    color: rgb(121, 8, 8);
+}
+
+.middle-container .right-container{
+    border:1px solid red;
+    width: 50%;
+    margin: 20px;
+    font-size: x-large;
+    line-height: 2;
+    color: rgb(121, 8, 8);
+}
+
+.middle-container span{
+    font-size: larger;
+    color:rgb(133, 39, 15)
+}
+
+.middle-container .right-container {
+    display: flex;
+    border: 1px solid green;
+    align-items: center;
+}
+
+.middle-container .right-container .left-side{
+    /* border: 3px solid red; */
+}
+
+.middle-container .right-container .right-side{
+    /* border: 3px solid red; */
+    margin-left: 70px;
+}
