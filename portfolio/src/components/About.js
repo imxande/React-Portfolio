@@ -1,15 +1,18 @@
 import React from "react";
 import Skills from "./Skills";
 import NavBar from "./NavBar";
+import Particle from "./Particle"
+import "../css/About.css";
+
 
 const About = () => {
   return (
     <div className="about">
       <div className="top-container">
         <h2>
-          About <span>ME</span>
+          ABOUT ME
         </h2>
-        <span>Alejandro E. Rodriguez La Rosa</span>
+        <span>ALEJANDRO</span>
       </div>
       <div className="middle-container">
         <p>
@@ -33,6 +36,9 @@ const About = () => {
       </div>
       <div className="navigation">
         <NavBar />
+      </div>
+      <div className="particles">
+        <Particle/>
       </div>
     </div>
   );
