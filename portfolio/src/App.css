@@ -1,3 +1,6 @@
+body {
+    height: 100%;
+}
 .home {
     display: flex;
     align-items: center;
@@ -75,7 +78,7 @@ li.icon-box{
     transition: .3s;
     margin: 20px 0;
     border-radius: 50%;
-    background: #2d545e
+    background: #2d545e;
 }
 
 .icons{

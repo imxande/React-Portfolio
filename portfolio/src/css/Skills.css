@@ -1,0 +1,35 @@
+.skills-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.icons-container {
+    font-size: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+    margin-bottom: 100px;
+    margin: auto;
+  }
+
+  .skill-icons{
+      font-size: xxx-large;
+  }
+
+  .htmlIcon{
+      color: orangered;
+  }
+
+  .cssIcon{
+      color: #2962ff
+  }
+
+  .jsIcon{
+      color: yellow;
+  }
+
+  .reactIcon{
+      color: #2962ff;
+  }
