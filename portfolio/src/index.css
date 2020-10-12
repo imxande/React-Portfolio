@@ -19,3 +19,7 @@ section, summary, time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
+
+body {
+  background-color: #00fff7; 
+  }
