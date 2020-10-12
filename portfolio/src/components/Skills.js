@@ -29,7 +29,7 @@ const Skills = () => {
         <IconContext.Provider value={{ className: "skill-icons" }}>
           <FaJsSquare />
         </IconContext.Provider>
-        <h3>JavaScript</h3>
+        <h3>JAVASCRIPT</h3>
       </div>
       <div class="icons-container">
         <IconContext.Provider value={{ className: "skill-icons" }}>
