@@ -14,25 +14,25 @@ const Skills = () => {
   return (
     <div className="skills-container">
       <div class="icons-container">
-        <IconContext.Provider value={{ className: "skill-icons" }}>
+        <IconContext.Provider value={{ className: "skill-icons htmlIcon" }}>
           <FaHtml5 />
         </IconContext.Provider>
         <h3>HTML5</h3>
       </div>
       <div class="icons-container">
-        <IconContext.Provider value={{ className: "skill-icons" }}>
+        <IconContext.Provider value={{ className: "skill-icons cssIcon" }}>
           <FaCss3Alt />
         </IconContext.Provider>
         <h3>CSS3</h3>
       </div>
       <div class="icons-container">
-        <IconContext.Provider value={{ className: "skill-icons" }}>
+        <IconContext.Provider value={{ className: "skill-icons jsIcon" }}>
           <FaJsSquare />
         </IconContext.Provider>
         <h3>JAVASCRIPT</h3>
       </div>
       <div class="icons-container">
-        <IconContext.Provider value={{ className: "skill-icons" }}>
+        <IconContext.Provider value={{ className: "skill-icons reactIcon" }}>
           <FaReact />
         </IconContext.Provider>
         <h3>REACT</h3>

@@ -17,3 +17,19 @@
   .skill-icons{
       font-size: xxx-large;
   }
+
+  .htmlIcon{
+      color: orangered;
+  }
+
+  .cssIcon{
+      color: #2962ff
+  }
+
+  .jsIcon{
+      color: yellow;
+  }
+
+  .reactIcon{
+      color: #2962ff;
+  }
