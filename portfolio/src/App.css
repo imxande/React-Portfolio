@@ -6,7 +6,7 @@
 }
 
 .hero-image{
-    margin:20px;
+    margin: 20px;
     margin-right: 60px; 
 }
 
@@ -123,4 +123,33 @@ li.icon-box{
       z-index: -1;
       position: relative;
   } 
+
+  .btn{
+    line-height: 2em;
+    text-align: center;
+    border-radius: 26px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 10px 5px 5px rgb(45, 49, 48);
+  }
+
+  .btn span {
+      font-size: medium;
+      margin: 5px 10px;
+  }
+  .btn:hover{
+      color:white;
+      transition: .7s;
+      background-color: teal;
+      cursor: pointer;
+  }
+
+  .btnIcon{
+      font-size: x-large;
+      display: none;
+  }
   
+  .btn:hover .btnIcon{
+      display: inline;
+  }

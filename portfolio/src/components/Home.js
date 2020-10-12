@@ -27,9 +27,12 @@ const Home = () => {
             functional websites and applications. I have always been curious
             about how everything works.
           </p>
-          <button> <IconContext.Provider value={{ className: "btnIcon" }}>
-            <FaFileDownload />
-          </IconContext.Provider>Download Resume</button>
+          <button class="btn"> 
+            <span>Download Resume</span>
+            <IconContext.Provider value={{ className: "btnIcon" }}>
+              <FaFileDownload />
+            </IconContext.Provider>
+          </button>
         </div>
         <div className="navigation">
           <NavBar />
