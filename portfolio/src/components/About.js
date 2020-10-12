@@ -2,6 +2,8 @@ import React from "react";
 import Skills from "./Skills";
 import NavBar from "./NavBar";
 import "../css/About.css";
+import { IconContext } from "react-icons";
+import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 
 
 const About = () => {
@@ -63,15 +65,21 @@ const About = () => {
                 <span> Lynchburg, VA</span>
               </li>
               <li>
+                  <IconContext.Provider value={{ className: "aboutIcon" }}>
+                    <FaLinkedin />
+                  </IconContext.Provider> 
                 <a href="https://www.linkedin.com/in/alejandro-e-rodriguez/">LinkedIn</a>
               </li>
               <li>
+                  <IconContext.Provider value={{ className: "aboutIcon" }}>
+                    <FaGithub />
+                  </IconContext.Provider> 
                 <a href="https://github.com/imxande">Github</a>
               </li>
               <li>
-                <a href="https://twitter.com/ale_rodriguez91">Twitter</a>
-              </li>
-              <li>
+                  <IconContext.Provider value={{ className: "aboutIcon" }}>
+                    <FaTwitter />
+                  </IconContext.Provider> 
                 <a href="https://twitter.com/ale_rodriguez91">Twitter</a>
               </li>
             </ul>
