@@ -1,5 +1,5 @@
 .top-container{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-align: center;
     /* margin: 30px; */
     font-size: 60px;
@@ -34,16 +34,17 @@
 }
 
 .middle-container .left-container{
-    border:1px solid red;
+    /* border:1px solid red; */
     width: 50%;
     margin: 20px;
     font-size: x-large;
     line-height: 2;
     color: rgb(121, 8, 8);
+    border-right: 3px solid rgba(30, 37, 48, 0.07);
 }
 
 .middle-container .right-container{
-    border:1px solid red;
+    /* border:1px solid red; */
     width: 50%;
     margin: 20px;
     font-size: x-large;
@@ -58,7 +59,7 @@
 
 .middle-container .right-container {
     display: flex;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     align-items: center;
 }
 
@@ -74,9 +75,10 @@
 .middle-container .right-container .right-side li{
     display: flex;
     margin: 25px;
-    border: 1px solid red;
-    justify-content: center;
+    /* border: 1px solid red; */
+    justify-content: left;
     align-items: center;
+    font-size: xx-large;
 }
 
 .middle-container .right-container .right-side a {
@@ -85,4 +87,15 @@
 
 .aboutIcon{
     margin: 10px;
+}
+
+.bottom-container{
+    text-align: center;
+}
+
+.bottom-container h2 {
+    font-size: 40px;
+    font-weight: 800;
+    color: gray; 
+    margin-bottom: 15px;  
 }
