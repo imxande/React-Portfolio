@@ -1,8 +1,10 @@
 import React from "react";
 import ale_image from "../images/ale_profile.jpeg";
 import NavBar from "./NavBar";
-import Particles from "react-tsparticles";
 import Particle from "./Particle";
+import { IconContext } from "react-icons";
+import {FaFileDownload} from "react-icons/fa"
+
 
 const Home = () => {
   return (
@@ -25,6 +27,9 @@ const Home = () => {
             functional websites and applications. I have always been curious
             about how everything works.
           </p>
+          <button> <IconContext.Provider value={{ className: "btnIcon" }}>
+            <FaFileDownload />
+          </IconContext.Provider>Download Resume</button>
         </div>
         <div className="navigation">
           <NavBar />
