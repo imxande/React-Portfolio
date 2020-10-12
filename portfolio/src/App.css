@@ -124,32 +124,38 @@ li.icon-box{
       position: relative;
   } 
 
-  .btn{
+  .download{
+    width: 15rem;
     line-height: 2em;
     text-align: center;
     border-radius: 26px;
     margin: 20px;
     display: flex;
+    justify-content: center;
     align-items: center;
     box-shadow: 10px 5px 5px rgb(45, 49, 48);
+    text-decoration: none;
+    color: darkslategrey;
+    background-color: whitesmoke;
+    border: 1px solid gray;
   }
 
-  .btn span {
-      font-size: medium;
+  .download span {
+      font-size: larger;
       margin: 5px 10px;
   }
-  .btn:hover{
+  .download:hover{
       color:white;
       transition: .7s;
       background-color: teal;
       cursor: pointer;
   }
 
-  .btnIcon{
+  .downloadIcon{
       font-size: x-large;
       display: none;
   }
   
-  .btn:hover .btnIcon{
+  .download:hover .downloadIcon{
       display: inline;
   }

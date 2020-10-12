@@ -7,6 +7,12 @@ import {FaFileDownload} from "react-icons/fa"
 
 
 const Home = () => {
+
+  // // download resume 
+  // const downLoadResume = () => {
+  //   window.location.href="../resume/Updated_Resume.pdf"
+  // }
+
   return (
     <div>
       <div className="home">
@@ -27,12 +33,12 @@ const Home = () => {
             functional websites and applications. I have always been curious
             about how everything works.
           </p>
-          <button class="btn"> 
+          <a class="download" href={"https://drive.google.com/file/d/1kELm2dyI9xNN3Kh0eJJ1HlUH7_L8oy1v/view?usp=sharing"} download> 
             <span>Download Resume</span>
-            <IconContext.Provider value={{ className: "btnIcon" }}>
+            <IconContext.Provider value={{ className: "downloadIcon" }}>
               <FaFileDownload />
             </IconContext.Provider>
-          </button>
+          </a>
         </div>
         <div className="navigation">
           <NavBar />
