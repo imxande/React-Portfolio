@@ -27,7 +27,7 @@ const NavBar = () => {
           <IconContext.Provider value={{ className: "icons" }}>
             <FaToolbox />
           </IconContext.Provider>
-          <Link to="/">
+          <Link to="/projects">
             <h2 className="navText">Projects</h2>
           </Link>
         </li>
