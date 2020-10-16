@@ -12,24 +12,16 @@ const Projects = () => {
       <div className="projects-gallery">
         <ul>
           <li>
-            <figure>
-              <img src="../images/Connect.jpg" alt="Portolio Image" />
-            </figure>
+            <img src="../images/Connect.jpg" alt="Portolio Image" />
           </li>
           <li>
-            <figure>
-              <img src="../images/PostHere.jpg" alt="Portolio Image" />
-            </figure>
+            <img src="../images/PostHere.jpg" alt="Portolio Image" />
           </li>
           <li>
-            <figure>
-              <img src="../images/guesswho.jpg" alt="Portolio Image" />
-            </figure>
+            <img src="../images/guesswho.jpg" alt="Portolio Image" />
           </li>
           <li>
-            <figure>
-              <img src="../images/DevDeskQueue.jpg" alt="Portolio Image" />
-            </figure>
+            <img src="../images/DevDeskQueue.jpg" alt="Portolio Image" />
           </li>
         </ul>
       </div>
