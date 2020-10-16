@@ -10,10 +10,27 @@ const Projects = () => {
         <span>MY WORK</span>
       </div>
       <div className="projects-gallery">
-        <div className="card"></div>
-        <div className="card"></div>
-        <div className="card"></div>
-        <div className="card"></div>
+        <div className="card">
+          <img src={require("../images/Connect.jpg")} alt={"Portfolio Image"} />
+        </div>
+        <div className="card">
+          <img
+            src={require("../images/PostHere.jpg")}
+            alt={"Portfolio Image"}
+          />
+        </div>
+        <div className="card">
+          <img
+            src={require("../images/GuessWho.jpg")}
+            alt={"Portfolio Image"}
+          />
+        </div>
+        <div className="card">
+          <img
+            src={require("../images/DevDeskQueue.jpg")}
+            alt={"Portfolio Image"}
+          />
+        </div>
       </div>
       <div className="navigation">
         <Navbar />
