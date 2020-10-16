@@ -10,20 +10,10 @@ const Projects = () => {
         <span>MY WORK</span>
       </div>
       <div className="projects-gallery">
-        <ul>
-          <li>
-            <img src="../images/Connect.jpg" alt="Portolio Image" />
-          </li>
-          <li>
-            <img src="../images/PostHere.jpg" alt="Portolio Image" />
-          </li>
-          <li>
-            <img src="../images/guesswho.jpg" alt="Portolio Image" />
-          </li>
-          <li>
-            <img src="../images/DevDeskQueue.jpg" alt="Portolio Image" />
-          </li>
-        </ul>
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
       </div>
       <div className="navigation">
         <Navbar />
