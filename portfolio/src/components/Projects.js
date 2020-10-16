@@ -16,6 +16,9 @@ const Projects = () => {
             src={require("../images/Connect.jpg")}
             alt={"Portfolio Image"}
           />
+          <div className="hidden-message">
+            <span>Click To Learn More!</span>
+          </div>
         </div>
         <div className="card">
           <img
@@ -23,6 +26,9 @@ const Projects = () => {
             src={require("../images/PostHere.jpg")}
             alt={"Portfolio Image"}
           />
+          <div className="hidden-message">
+            <span>Click To Learn More!</span>
+          </div>
         </div>
         <div className="card">
           <img
@@ -30,6 +36,9 @@ const Projects = () => {
             src={require("../images/GuessWho.jpg")}
             alt={"Portfolio Image"}
           />
+          <div className="hidden-message">
+            <span>Click To Learn More!</span>
+          </div>
         </div>
         <div className="card">
           <img
@@ -37,6 +46,9 @@ const Projects = () => {
             src={require("../images/DevDeskQueue.jpg")}
             alt={"Portfolio Image"}
           />
+          <div className="hidden-message">
+            <span>Click To Learn More!</span>
+          </div>
         </div>
       </div>
       <div className="navigation">
