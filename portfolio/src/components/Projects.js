@@ -11,22 +11,29 @@ const Projects = () => {
       </div>
       <div className="projects-gallery">
         <div className="card">
-          <img src={require("../images/Connect.jpg")} alt={"Portfolio Image"} />
+          <img
+            className="project-image"
+            src={require("../images/Connect.jpg")}
+            alt={"Portfolio Image"}
+          />
         </div>
         <div className="card">
           <img
+            className="project-image"
             src={require("../images/PostHere.jpg")}
             alt={"Portfolio Image"}
           />
         </div>
         <div className="card">
           <img
+            className="project-image"
             src={require("../images/GuessWho.jpg")}
             alt={"Portfolio Image"}
           />
         </div>
         <div className="card">
           <img
+            className="project-image"
             src={require("../images/DevDeskQueue.jpg")}
             alt={"Portfolio Image"}
           />
