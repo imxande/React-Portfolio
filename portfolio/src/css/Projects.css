@@ -40,5 +40,11 @@
 
 .card:hover .hidden-message {
     opacity: 1;
+    cursor: pointer;
+}
+
+.card .hidden-message span{
+    font-size: x-large;
+    font-style: oblique;
 }
 
