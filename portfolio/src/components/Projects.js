@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "./NavBar";
 import "../css/Projects.css";
+import ConnectOurKids from "./ConnectOurKids";
 
 const Projects = () => {
+  // function to handle click and renders selected project
+  const handleClick = (e) => {
+    e.preventDefault();
+    console.log("Span click");
+  };
+
   return (
     <div className="projects-container">
       <div className="top-container">
@@ -16,7 +23,7 @@ const Projects = () => {
             src={require("../images/Connect.jpg")}
             alt={"Portfolio Image"}
           />
-          <div className="hidden-message hidden-overlay">
+          <div className="hidden-message hidden-overlay" onClick={handleClick}>
             <span>Click To Learn More!</span>
           </div>
         </div>
