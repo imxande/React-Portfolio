@@ -35,7 +35,7 @@ const NavBar = () => {
           <IconContext.Provider value={{ className: "icons" }}>
             <FaEnvelopeOpen />
           </IconContext.Provider>
-          <Link to="/">
+          <Link to="/contact">
             <h2 className="navText">Contact</h2>
           </Link>
         </li>
