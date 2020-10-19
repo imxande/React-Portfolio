@@ -10,14 +10,13 @@ const Projects = () => {
   // function to handle click and renders selected project
   const handleClick = (event) => {
     event.preventDefault();
-    setToggle(true);
-
-    if (event.target.id) {
-      setToggle(!toggle);
-    }
-    //
-    // console.log(event.target.id);
+    console.log(event.target.id);
     console.log(toggle);
+
+    if (event.target.id === "connect") {
+      let project = <ConnectOurKids />;
+      setToggle(true);
+    }
   };
 
   return (
@@ -39,6 +38,7 @@ const Projects = () => {
             onClick={handleClick}
           >
             <span>Click To Learn More!</span>
+            {toggle === true ? <ConnectOurKids /> : null}
           </div>
         </div>
         <div className="card">
