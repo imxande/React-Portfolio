@@ -4,10 +4,20 @@ import "../css/Projects.css";
 import ConnectOurKids from "./ConnectOurKids";
 
 const Projects = () => {
+  // projects state
+  const [toggle, setToggle] = useState(false);
+
   // function to handle click and renders selected project
-  const handleClick = (e) => {
-    e.preventDefault();
-    console.log("Span click");
+  const handleClick = (event) => {
+    event.preventDefault();
+    setToggle(true);
+
+    if (event.target.id) {
+      setToggle(!toggle);
+    }
+    //
+    // console.log(event.target.id);
+    console.log(toggle);
   };
 
   return (
@@ -23,7 +33,11 @@ const Projects = () => {
             src={require("../images/Connect.jpg")}
             alt={"Portfolio Image"}
           />
-          <div className="hidden-message hidden-overlay" onClick={handleClick}>
+          <div
+            className="hidden-message hidden-overlay"
+            id="connect"
+            onClick={handleClick}
+          >
             <span>Click To Learn More!</span>
           </div>
         </div>
@@ -33,7 +47,11 @@ const Projects = () => {
             src={require("../images/PostHere.jpg")}
             alt={"Portfolio Image"}
           />
-          <div className="hidden-message hidden-overlay">
+          <div
+            className="hidden-message hidden-overlay"
+            id="post-here"
+            onClick={handleClick}
+          >
             <span>Click To Learn More!</span>
           </div>
         </div>
@@ -43,7 +61,11 @@ const Projects = () => {
             src={require("../images/GuessWho.jpg")}
             alt={"Portfolio Image"}
           />
-          <div className="hidden-message hidden-overlay">
+          <div
+            className="hidden-message hidden-overlay"
+            id="guess-who"
+            onClick={handleClick}
+          >
             <span>Click To Learn More!</span>
           </div>
         </div>
@@ -53,7 +75,11 @@ const Projects = () => {
             src={require("../images/DevDeskQueue.jpg")}
             alt={"Portfolio Image"}
           />
-          <div className="hidden-message hidden-overlay">
+          <div
+            className="hidden-message hidden-overlay"
+            id="dev-desk-queue"
+            onClick={handleClick}
+          >
             <span>Click To Learn More!</span>
           </div>
         </div>

@@ -56,22 +56,16 @@
 
 .middle-container .right-container {
     display: flex;
-    /* border: 1px solid green; */
     align-items: center;
 }
 
-.middle-container .right-container .left-side{
-    /* border: 3px solid red; */
-}
-
 .middle-container .right-container .right-side{
-    margin-left: 30px;
+    margin-left: 5px;
 }
 
 .middle-container .right-container .right-side li{
     display: flex;
     margin: 25px;
-    /* border: 1px solid red; */
     justify-content: left;
     align-items: center;
     font-size: xx-large;
