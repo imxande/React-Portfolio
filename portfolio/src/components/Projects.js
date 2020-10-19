@@ -6,6 +6,7 @@ import ConnectOurKids from "./ConnectOurKids";
 const Projects = () => {
   // projects state
   const [toggle, setToggle] = useState(false);
+  const [project, setProject] = useState();
 
   // function to handle click and renders selected project
   const handleClick = (event) => {
@@ -14,7 +15,7 @@ const Projects = () => {
     console.log(toggle);
 
     if (event.target.id === "connect") {
-      let project = <ConnectOurKids />;
+      setProject(<ConnectOurKids />);
       setToggle(true);
     }
   };
@@ -38,7 +39,7 @@ const Projects = () => {
             onClick={handleClick}
           >
             <span>Click To Learn More!</span>
-            {toggle === true ? <ConnectOurKids /> : null}
+            {toggle === true ? project : null}
           </div>
         </div>
         <div className="card">
