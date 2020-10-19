@@ -2,21 +2,32 @@ import React, { useState } from "react";
 import Navbar from "./NavBar";
 import "../css/Projects.css";
 import ConnectOurKids from "./ConnectOurKids";
+import PostHere from "./PostHere";
 
 const Projects = () => {
   // projects state
-  const [toggle, setToggle] = useState(false);
-  const [project, setProject] = useState();
+  const [toggle1, setToggle1] = useState(false);
+  const [toggle2, setToggle2] = useState(false);
+  const [toggle3, setToggle3] = useState(false);
+  const [toggle4, setToggle4] = useState(false);
 
   // function to handle click and renders selected project
   const handleClick = (event) => {
     event.preventDefault();
     console.log(event.target.id);
-    console.log(toggle);
+    console.log(toggle1);
+    console.log(toggle2);
+    console.log(toggle3);
+    console.log(toggle4);
 
     if (event.target.id === "connect") {
-      setProject(<ConnectOurKids />);
-      setToggle(true);
+      setToggle1(true);
+    } else if (event.target.id === "post-here") {
+      setToggle2(true);
+    } else if (event.target.id === "guess-who") {
+      setToggle3(true);
+    } else if (event.target.id === "dev-desk-queue") {
+      setToggle4(true);
     }
   };
 
@@ -39,7 +50,7 @@ const Projects = () => {
             onClick={handleClick}
           >
             <span>Click To Learn More!</span>
-            {toggle === true ? project : null}
+            {toggle1 === true ? <ConnectOurKids /> : null}
           </div>
         </div>
         <div className="card">
@@ -54,6 +65,7 @@ const Projects = () => {
             onClick={handleClick}
           >
             <span>Click To Learn More!</span>
+            {toggle2 === true ? <PostHere /> : null}
           </div>
         </div>
         <div className="card">
