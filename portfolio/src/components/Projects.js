@@ -14,20 +14,20 @@ const Projects = () => {
   // function to handle click and renders selected project
   const handleClick = (event) => {
     event.preventDefault();
-    console.log(event.target.id);
-    console.log(toggle1);
-    console.log(toggle2);
-    console.log(toggle3);
-    console.log(toggle4);
+    // console.log(event.target.id);
+    // console.log(toggle1);
+    // console.log(toggle2);
+    // console.log(toggle3);
+    // console.log(toggle4);
 
     if (event.target.id === "connect") {
-      setToggle1(true);
+      setToggle1(!toggle1);
     } else if (event.target.id === "post-here") {
-      setToggle2(true);
+      setToggle2(!toggle2);
     } else if (event.target.id === "guess-who") {
-      setToggle3(true);
+      setToggle3(!toggle3);
     } else if (event.target.id === "dev-desk-queue") {
-      setToggle4(true);
+      setToggle4(!toggle4);
     }
   };
 
