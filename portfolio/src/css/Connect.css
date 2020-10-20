@@ -23,17 +23,27 @@
 
 .modal {
   z-index: 100;
-  background: white;
+  background: rgb(92, 212, 202);
   position: relative;
-  margin: 1.75rem auto;
+  margin: auto;
   border-radius: 3px;
   max-width: 500px;
   padding: 2rem;
+  text-align: center;
+  top: 30%;
+  border:1px solid darkgray;
+  
+}
+
+.connect-header{
+  font-size: xxx-large;
+  margin-bottom: 10px;
 }
 
 .modal-header {
-  display: flex;
-  justify-content: flex-end;
+  position: absolute;
+  top: 0;
+  right:0;
 }
 
 .modal-close-button {
@@ -58,4 +68,32 @@ button {
 .button-default {
   background: #247BA0;
   color: #fff;
+}
+
+.connect-wrapper h3{
+  margin-bottom: 20px;
+  font-size: x-large;
+}
+
+.connect-wrapper p{
+  margin-bottom: 20px;
+  font-size: 1.3em;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.connect-wrapper ul{
+  display: flex;
+  justify-content: center;
+}
+
+.connect-wrapper li{
+  margin: 5px;
+  font-size: 1.7em;
+  padding: 2px;
+}
+
+.connect-wrapper a{
+  text-decoration: none;
+  color: rgb(10, 1, 1)
 }
