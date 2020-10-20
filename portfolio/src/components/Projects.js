@@ -65,7 +65,7 @@ const Projects = () => {
             onClick={handleClick}
           >
             <span>Click To Learn More!</span>
-            {toggle2 === true ? <PostHere /> : null}
+            {toggle2 === true ? <PostHere toggle2={toggle2} /> : null}
           </div>
         </div>
         <div className="card">
