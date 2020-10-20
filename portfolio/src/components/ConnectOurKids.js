@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import "../css/Connect.css";
 
 const ConnectOurKids = ({ isShowing, hide }) =>
   isShowing

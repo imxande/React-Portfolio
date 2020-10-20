@@ -6,7 +6,7 @@ import PostHere from "./PostHere";
 import useModal from "../helpers/useModal";
 
 const Projects = () => {
-  const { isShowing, toggle } = useModal();
+  const { isShowing, toggle1, toggle2 } = useModal();
   return (
     <div className="projects-container">
       <div className="top-container">
@@ -23,10 +23,10 @@ const Projects = () => {
           <div
             className="hidden-message hidden-overlay"
             id="connect"
-            onClick={toggle}
+            onClick={toggle1}
           >
             <span>Click To Learn More!</span>
-            <ConnectOurKids isShowing={isShowing} hide={toggle} />
+            <ConnectOurKids isShowing={isShowing} hide={toggle1} />
           </div>
         </div>
         <div className="card">
@@ -35,8 +35,13 @@ const Projects = () => {
             src={require("../images/PostHere.jpg")}
             alt={"Portfolio Image"}
           />
-          <div className="hidden-message hidden-overlay" id="post-here">
+          <div
+            className="hidden-message hidden-overlay"
+            id="post-here"
+            onClick={toggle2}
+          >
             <span>Click To Learn More!</span>
+            <PostHere isShowing={isShowing} hide={toggle2} />
           </div>
         </div>
         <div className="card">
