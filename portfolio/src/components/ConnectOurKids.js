@@ -32,12 +32,18 @@ const ConnectOurKids = ({ isShowing, hide }) =>
                 </div>
                 <ul>
                   <li>
-                    <a href="https://play.google.com/store/apps/details?id=com.connectOurKids&hl=en_US">
+                    <a
+                      href="https://play.google.com/store/apps/details?id=com.connectOurKids&hl=en_US"
+                      className="project-link"
+                    >
                       DEMO
                     </a>
                   </li>
                   <li>
-                    <a href="https://github.com/connect-our-kids/mobile-app">
+                    <a
+                      href="https://github.com/connect-our-kids/mobile-app"
+                      className="project-link"
+                    >
                       CODE
                     </a>
                   </li>
