@@ -1,36 +1,23 @@
-import React, { useState } from "react";
+import React from "react";
 import Navbar from "./NavBar";
 import "../css/Projects.css";
 import ConnectOurKids from "./ConnectOurKids";
 import PostHere from "./PostHere";
+import GuessWho from "./GuessWho";
+import useModal from "../helpers/useModal";
+import DevDeskQueue from "./DevDeskQueue";
 
 const Projects = () => {
-  // projects state
-  const [toggle1, setToggle1] = useState(false);
-  const [toggle2, setToggle2] = useState(false);
-  const [toggle3, setToggle3] = useState(false);
-  const [toggle4, setToggle4] = useState(false);
-
-  // function to handle click and renders selected project
-  const handleClick = (event) => {
-    event.preventDefault();
-    // console.log(event.target.id);
-    // console.log(toggle1);
-    // console.log(toggle2);
-    // console.log(toggle3);
-    // console.log(toggle4);
-
-    if (event.target.id === "connect") {
-      setToggle1(!toggle1);
-    } else if (event.target.id === "post-here") {
-      setToggle2(!toggle2);
-    } else if (event.target.id === "guess-who") {
-      setToggle3(!toggle3);
-    } else if (event.target.id === "dev-desk-queue") {
-      setToggle4(!toggle4);
-    }
-  };
-
+  const {
+    isShowing1,
+    isShowing2,
+    isShowing3,
+    isShowing4,
+    toggle1,
+    toggle2,
+    toggle3,
+    toggle4,
+  } = useModal();
   return (
     <div className="projects-container">
       <div className="top-container">
@@ -47,10 +34,10 @@ const Projects = () => {
           <div
             className="hidden-message hidden-overlay"
             id="connect"
-            onClick={handleClick}
+            onClick={toggle1}
           >
             <span>Click To Learn More!</span>
-            {toggle1 === true ? <ConnectOurKids /> : null}
+            <ConnectOurKids isShowing1={isShowing1} hide={toggle1} />
           </div>
         </div>
         <div className="card">
@@ -62,10 +49,10 @@ const Projects = () => {
           <div
             className="hidden-message hidden-overlay"
             id="post-here"
-            onClick={handleClick}
+            onClick={toggle2}
           >
             <span>Click To Learn More!</span>
-            {toggle2 === true ? <PostHere toggle2={toggle2} /> : null}
+            <PostHere isShowing2={isShowing2} hide={toggle2} />
           </div>
         </div>
         <div className="card">
@@ -77,9 +64,10 @@ const Projects = () => {
           <div
             className="hidden-message hidden-overlay"
             id="guess-who"
-            onClick={handleClick}
+            onClick={toggle3}
           >
             <span>Click To Learn More!</span>
+            <GuessWho isShowing3={isShowing3} hide={toggle3} />
           </div>
         </div>
         <div className="card">
@@ -91,9 +79,10 @@ const Projects = () => {
           <div
             className="hidden-message hidden-overlay"
             id="dev-desk-queue"
-            onClick={handleClick}
+            onClick={toggle4}
           >
             <span>Click To Learn More!</span>
+            <DevDeskQueue isShowing4={isShowing4} hide={toggle4} />
           </div>
         </div>
       </div>

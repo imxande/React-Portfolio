@@ -2,8 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "../css/Connect.css";
 
-const PostHere = ({ isShowing2, hide }) =>
-  isShowing2
+const DevDeskQueue = ({ isShowing4, hide }) =>
+  isShowing4
     ? ReactDOM.createPortal(
         <React.Fragment>
           <div className="modal-overlay" />
@@ -20,20 +20,20 @@ const PostHere = ({ isShowing2, hide }) =>
                   <span aria-hidden="true">&times;</span>
                 </button>
               </div>
-              <h2 className="connect-header">Post Here</h2>
+              <h2 className="connect-header">Dev Desk Queue</h2>
               <div className="connect-wrapper">
                 <div>
-                  <h3>REACT | NODE/EXPRESS | REACTSTRAP</h3>
+                  <h3>HTML | CSS | LESS</h3>
                   <p>
-                    Post Here helps you find the best place to share on Reddit.
-                    The user enters their post and Post Here finds the subreddit
-                    that is most appropriate for that post.
+                    Landing page for the Dev Desk Queue application. Dev Desk
+                    Queue makes it easier for Lambda School’s staff to keep
+                    track of questions asked by students.
                   </p>
                 </div>
                 <ul>
                   <li>
                     <a
-                      href="https://play.google.com/store/apps/details?id=com.connectOurKids&hl=en_US"
+                      href="https://ecstatic-einstein-d0ae82.netlify.app/"
                       className="project-link"
                     >
                       DEMO
@@ -41,7 +41,7 @@ const PostHere = ({ isShowing2, hide }) =>
                   </li>
                   <li>
                     <a
-                      href="https://github.com/connect-our-kids/mobile-app"
+                      href="https://github.com/DevDesk-Queue-bw/marketing-page"
                       className="project-link"
                     >
                       CODE
@@ -56,4 +56,4 @@ const PostHere = ({ isShowing2, hide }) =>
       )
     : null;
 
-export default PostHere;
+export default DevDeskQueue;
