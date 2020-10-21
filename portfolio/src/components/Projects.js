@@ -6,7 +6,7 @@ import PostHere from "./PostHere";
 import useModal from "../helpers/useModal";
 
 const Projects = () => {
-  const { isShowing, toggle1, toggle2 } = useModal();
+  const { isShowing1, isShowing2, toggle1, toggle2 } = useModal();
   return (
     <div className="projects-container">
       <div className="top-container">
@@ -26,7 +26,7 @@ const Projects = () => {
             onClick={toggle1}
           >
             <span>Click To Learn More!</span>
-            <ConnectOurKids isShowing={isShowing} hide={toggle1} />
+            <ConnectOurKids isShowing1={isShowing1} hide={toggle1} />
           </div>
         </div>
         <div className="card">
@@ -41,7 +41,7 @@ const Projects = () => {
             onClick={toggle2}
           >
             <span>Click To Learn More!</span>
-            <PostHere isShowing={isShowing} hide={toggle2} />
+            <PostHere isShowing2={isShowing2} hide={toggle2} />
           </div>
         </div>
         <div className="card">

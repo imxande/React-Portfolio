@@ -2,8 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "../css/Connect.css";
 
-const ConnectOurKids = ({ isShowing, hide }) =>
-  isShowing
+const ConnectOurKids = ({ isShowing1, hide }) =>
+  isShowing1
     ? ReactDOM.createPortal(
         <React.Fragment>
           <div className="modal-overlay" />

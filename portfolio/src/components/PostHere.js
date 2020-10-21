@@ -2,8 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "../css/Connect.css";
 
-const PostHere = ({ isShowing, hide }) =>
-  isShowing
+const PostHere = ({ isShowing2, hide }) =>
+  isShowing2
     ? ReactDOM.createPortal(
         <React.Fragment>
           <div className="modal-overlay" />
