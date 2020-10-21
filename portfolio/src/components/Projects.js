@@ -3,10 +3,18 @@ import Navbar from "./NavBar";
 import "../css/Projects.css";
 import ConnectOurKids from "./ConnectOurKids";
 import PostHere from "./PostHere";
+import GuessWho from "./GuessWho";
 import useModal from "../helpers/useModal";
 
 const Projects = () => {
-  const { isShowing1, isShowing2, toggle1, toggle2 } = useModal();
+  const {
+    isShowing1,
+    isShowing2,
+    isShowing3,
+    toggle1,
+    toggle2,
+    toggle3,
+  } = useModal();
   return (
     <div className="projects-container">
       <div className="top-container">
@@ -50,8 +58,13 @@ const Projects = () => {
             src={require("../images/GuessWho.jpg")}
             alt={"Portfolio Image"}
           />
-          <div className="hidden-message hidden-overlay" id="guess-who">
+          <div
+            className="hidden-message hidden-overlay"
+            id="guess-who"
+            onClick={toggle3}
+          >
             <span>Click To Learn More!</span>
+            <GuessWho isShowing3={isShowing3} hide={toggle3} />
           </div>
         </div>
         <div className="card">
