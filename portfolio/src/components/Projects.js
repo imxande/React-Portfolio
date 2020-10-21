@@ -1,19 +1,22 @@
-import React, { useState } from "react";
+import React from "react";
 import Navbar from "./NavBar";
 import "../css/Projects.css";
 import ConnectOurKids from "./ConnectOurKids";
 import PostHere from "./PostHere";
 import GuessWho from "./GuessWho";
 import useModal from "../helpers/useModal";
+import DevDeskQueue from "./DevDeskQueue";
 
 const Projects = () => {
   const {
     isShowing1,
     isShowing2,
     isShowing3,
+    isShowing4,
     toggle1,
     toggle2,
     toggle3,
+    toggle4,
   } = useModal();
   return (
     <div className="projects-container">
@@ -73,8 +76,13 @@ const Projects = () => {
             src={require("../images/DevDeskQueue.jpg")}
             alt={"Portfolio Image"}
           />
-          <div className="hidden-message hidden-overlay" id="dev-desk-queue">
+          <div
+            className="hidden-message hidden-overlay"
+            id="dev-desk-queue"
+            onClick={toggle4}
+          >
             <span>Click To Learn More!</span>
+            <DevDeskQueue isShowing4={isShowing4} hide={toggle4} />
           </div>
         </div>
       </div>
