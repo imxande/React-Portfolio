@@ -23,8 +23,8 @@ const Home = () => {
           <p>
             I am a Full Stack Web Developer. I live in North Carolina and I am
             willing to relocate. As a developer I create responsive, accessible
-            functional websites and applications. I have always been curious
-            about how everything works.
+            functional websites and applications. As a personal mission, I
+            strive to empower and improve other’s outlook and circumstances.
           </p>
           <a
             className="download"

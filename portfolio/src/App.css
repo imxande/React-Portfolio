@@ -123,8 +123,8 @@ li.icon-box{
   }
 
 .particles{
-      z-index: -1;
-      position: relative;
+    overflow-y: hidden;
+    height: 100vh;
   } 
 
   .download{
