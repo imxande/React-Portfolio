@@ -162,3 +162,46 @@ li.icon-box{
   .download:hover .downloadIcon{
       display: inline;
   }
+
+  @media(max-width: 480px){
+      .home{
+          display: inline;
+          text-align: center;
+      }
+
+      .hero-image{
+          width: 80%;
+          margin: 30px auto;
+      }
+      .particles{
+          display: none;
+      }
+
+      .greeting{
+          text-align: center;
+          margin: auto;
+      }
+
+      .greeting h3{
+        font-size: x-large;
+    }
+    
+      .greeting h1{
+        font-size: x-large;
+        line-height: 0.85;
+        text-decoration: underline;
+    }
+
+    .greeting p{
+        margin: 20px;
+        font-size: larger;
+        text-align: justify;
+        line-height: 2;
+    }
+    .navigation {
+        display: none;
+    }
+    .download{
+        margin: 30px auto;
+    }
+  }
