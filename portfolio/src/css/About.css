@@ -31,7 +31,6 @@
 }
 
 .middle-container .left-container{
-    /* border:1px solid red; */
     width: 50%;
     margin: 20px;
     font-size: x-large;
@@ -41,7 +40,6 @@
 }
 
 .middle-container .right-container{
-    /* border:1px solid red; */
     width: 50%;
     margin: 20px;
     font-size: x-large;
@@ -59,6 +57,10 @@
     align-items: center;
 }
 
+.middle-container .right-container .left-side li span:first-child{
+    color: gray;
+}
+
 .middle-container .right-container .right-side{
     margin-left: 5px;
 }
@@ -70,6 +72,7 @@
     align-items: center;
     font-size: xx-large;
 }
+
 
 .middle-container .right-container .right-side li :hover{
     color: rgba(0, 0, 0, 0.582)

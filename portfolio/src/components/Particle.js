@@ -3,7 +3,7 @@ import Particles from "react-tsparticles";
 
 const Particle = () => {
   return (
-    <div>
+    <div className="particles">
       <Particles
         id="tsparticles"
         options={{
