@@ -206,7 +206,6 @@ li.icon-box{
         justify-content: center;
       }
       
-      /* Hamburger Line */
       .menu-wrap .hamburger > div {
         position: relative;
         flex: none;
@@ -219,7 +218,6 @@ li.icon-box{
         transition: all 0.4s ease;
       }
       
-      /* Hamburger Lines - Top & Bottom */
       .menu-wrap .hamburger > div::before,
       .menu-wrap .hamburger > div::after {
         content: '';
@@ -230,30 +228,25 @@ li.icon-box{
         height: 2px;
         background: inherit;
       }
-      
-      /* Moves Line Down */
+
       .menu-wrap .hamburger > div::after {
         top: 10px;
       }
       
-      /* Toggler Animation */
       .menu-wrap .toggler:checked + .hamburger > div {
         transform: rotate(135deg);
       }
       
-      /* Turns Lines Into X */
       .menu-wrap .toggler:checked + .hamburger > div:before,
       .menu-wrap .toggler:checked + .hamburger > div:after {
         top: 0;
         transform: rotate(90deg);
       }
       
-      /* Rotate On Hover When Checked */
       .menu-wrap .toggler:checked:hover + .hamburger > div {
         transform: rotate(225deg);
       }
       
-      /* Show Menu */
       .menu-wrap .toggler:checked ~ .menu {
         visibility: visible;
       }
@@ -363,12 +356,6 @@ li.icon-box{
     }
   }
 
-  /* @media(max-width: 720px){
-    .hero-image{
-        width: 60%;
-        margin: 70px auto;
-    }
-  } */
   @media(max-width: 480px){
     .hero-image{
         width: 60%;
