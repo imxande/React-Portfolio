@@ -344,6 +344,7 @@ li.icon-box{
       font-size: larger;
       text-align: justify;
       line-height: 2;
+      word-break: break-all;
   }
   .download{
       margin: 30px auto;
@@ -355,9 +356,10 @@ li.icon-box{
     }
   }
 
-  @media(max-width: 480px){
+  @media(max-width: 576px){
     .hero-image{
         width: 60%;
         margin: 70px auto;
     }
+
   }
