@@ -48,3 +48,15 @@
     font-style: oblique;
 }
 
+@media(max-width:991px){
+    .card{
+        width: 45%;
+    }
+    .hidden-message span{
+        display: none;
+    }
+
+    .project-image{
+        border-radius: 20px;
+    }
+}
