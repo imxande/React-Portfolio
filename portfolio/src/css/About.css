@@ -110,3 +110,101 @@
     color: gray; 
     margin-bottom: 15px;  
 }
+
+@media(max-width: 991px){
+
+    .top-container h2{
+        font-size: 40px;
+    }
+    .top-container span {
+        font-size: 60px;
+        letter-spacing: 5px;
+        top: 36%;
+    }
+
+    .middle-container{
+        display:inline-block;
+    }
+
+    .middle-container .left-container{
+        width: 90%;
+        margin: 35px;
+        line-height: 2;
+        color: rgb(121, 8, 8);
+        border-right: none;
+        text-align: justify;
+        word-spacing: -3px;
+
+    }
+
+    .middle-container .right-container{
+        font-size: 24px;
+        width: 80%;
+    }
+
+    .middle-container .right-container .right-side{
+        display: none;
+
+    }
+
+    .bottom-container{
+        width: 100%;
+    }
+    .bottom-container h3{
+        font-size: large;
+    }
+}
+
+@media(max-width: 480px){
+
+    .top-container h2{
+        font-size: 20px;
+    }
+    .top-container span {
+        font-size: 35px;
+        letter-spacing: 0.2px;
+        top: 40%;
+    }
+
+    .middle-container{
+        display:inline-block;
+    }
+
+    .middle-container .left-container{
+        width: 90%;
+        margin: 25px;
+        line-height: 2;
+        color: rgb(121, 8, 8);
+        border-right: none;
+        text-align: justify;
+        word-spacing: -3px;
+        font-size: 18px;
+        border-bottom: 1px solid rgba(30, 37, 48, 0.07);
+    }
+
+    .middle-container .right-container{
+        font-size: 15px;
+        width: 80%;
+    }
+
+    .middle-container .right-container .right-side{
+        display: none;
+
+    }
+
+    .bottom-container{
+        width: 100%;
+    }
+    .bottom-container h3{
+        font-size: medium;
+    }
+
+    .skills-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .icons-container{
+        width: 30%;
+    }
+}
