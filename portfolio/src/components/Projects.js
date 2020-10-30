@@ -58,7 +58,7 @@ const Projects = () => {
         <div className="card">
           <img
             className="project-image"
-            src={require("../images/GuessWho.jpg")}
+            src={require("../images/guesswho.jpg")}
             alt={"Portfolio Image"}
           />
           <div
