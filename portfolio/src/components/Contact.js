@@ -16,15 +16,15 @@ const Contact = () => {
           action="https://formspree.io/alerodriguezlarosa@gmail.com"
         >
           <div className="form-input">
-            <label for="name">Name</label>
+            <label htmlFor="name">Name</label>
             <input type="name" name="name" id="name" size="50" />
           </div>
           <div className="form-input">
-            <label for="email">Email</label>
+            <label htmlFor="email">Email</label>
             <input type="email" name="email" id="email" size="50" />
           </div>
           <div className="form-input">
-            <label for="message">Message</label>
+            <label htmlFor="message">Message</label>
             <textarea name="message" id="message" rows="6" cols="53"></textarea>
           </div>
           <div className="form-button">
