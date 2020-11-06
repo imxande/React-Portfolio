@@ -29,7 +29,7 @@ const Projects = () => {
           <img
             className="project-image"
             src={require("../images/Connect.jpg")}
-            alt={"Portfolio Image"}
+            alt={"CONNECT OUR KIDS"}
           />
           <div
             className="hidden-message hidden-overlay"
@@ -44,7 +44,7 @@ const Projects = () => {
           <img
             className="project-image"
             src={require("../images/PostHere.jpg")}
-            alt={"Portfolio Image"}
+            alt={"Post Here 2"}
           />
           <div
             className="hidden-message hidden-overlay"
@@ -59,7 +59,7 @@ const Projects = () => {
           <img
             className="project-image"
             src={require("../images/guesswho.jpg")}
-            alt={"Portfolio Image"}
+            alt={"Guess Who"}
           />
           <div
             className="hidden-message hidden-overlay"
@@ -74,7 +74,7 @@ const Projects = () => {
           <img
             className="project-image"
             src={require("../images/DevDeskQueue.jpg")}
-            alt={"Portfolio Image"}
+            alt={"Dev Desk Queue"}
           />
           <div
             className="hidden-message hidden-overlay"
