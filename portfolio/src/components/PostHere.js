@@ -33,7 +33,7 @@ const PostHere = ({ isShowing2, hide }) =>
                 <ul>
                   <li>
                     <a
-                      href="https://play.google.com/store/apps/details?id=com.connectOurKids&hl=en_US"
+                      href="https://posthere.juhrard.now.sh/login"
                       className="project-link"
                     >
                       DEMO
@@ -41,7 +41,7 @@ const PostHere = ({ isShowing2, hide }) =>
                   </li>
                   <li>
                     <a
-                      href="https://github.com/connect-our-kids/mobile-app"
+                      href="https://github.com/BuildWeek-PostHere/back-end"
                       className="project-link"
                     >
                       CODE
