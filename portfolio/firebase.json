@@ -6,6 +6,7 @@
       "**/.*",
       "**/node_modules/**"
     ],
+    "site": "react-portfolio-ecd0a",
     "rewrites": [
       {
         "source": "**",
