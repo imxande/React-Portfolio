@@ -52,7 +52,7 @@ const About = () => {
               </li>
               <li>
                 <span>Address:</span>
-                <span> Lynchburg, VA</span>
+                <span> Hollywood, FL</span>
               </li>
               <li>
                 <span>Languages:</span>
