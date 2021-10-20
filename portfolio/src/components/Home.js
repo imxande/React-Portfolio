@@ -29,7 +29,7 @@ const Home = () => {
           <a
             className="download"
             href={
-              "https://drive.google.com/file/d/1kELm2dyI9xNN3Kh0eJJ1HlUH7_L8oy1v/view?usp=sharing"
+              "https://drive.google.com/file/d/1mKMuZhd5ke5v3TZindkDf4z7SEwyHbwH/view?usp=sharing"
             }
             download
           >
