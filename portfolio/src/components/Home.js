@@ -21,15 +21,15 @@ const Home = () => {
           <h3>Hi friends!</h3>
           <h1>I'm Alejandro E. Rodriguez La Rosa</h1>
           <p>
-            I am a Full Stack Web Developer. I live in North Carolina and I am
-            willing to relocate. As a developer I create responsive, accessible
+            I am a Full Stack Web Developer. I live in Florida and I am willing
+            to relocate. As a developer I create responsive, accessible
             functional websites and applications. As a personal mission, I
             strive to empower and improve other’s outlook and circumstances.
           </p>
           <a
             className="download"
             href={
-              "https://drive.google.com/file/d/1kELm2dyI9xNN3Kh0eJJ1HlUH7_L8oy1v/view?usp=sharing"
+              "https://drive.google.com/file/d/1mKMuZhd5ke5v3TZindkDf4z7SEwyHbwH/view?usp=sharing"
             }
             download
           >
