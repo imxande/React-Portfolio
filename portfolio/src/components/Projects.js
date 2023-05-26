@@ -64,7 +64,7 @@ const Projects = () => {
 				<div className="card">
 					<img
 						className="project-image"
-						src={require('../images/NutriScience.png')}
+						src={require('../images/NutriScience.jpg')}
 						alt={'Guess Who'}
 					/>
 					<div
@@ -79,7 +79,7 @@ const Projects = () => {
 				<div className="card">
 					<img
 						className="project-image"
-						src={require('../images/LinkUP.png')}
+						src={require('../images/LinkUp.jpg')}
 						alt={'Dev Desk Queue'}
 					/>
 					<div
@@ -94,7 +94,7 @@ const Projects = () => {
 				<div className="card">
 					<img
 						className="project-image"
-						src={require('../images/SPOC.png')}
+						src={require('../images/SPOC.jpg')}
 						alt={'Dev Desk Queue'}
 					/>
 					<div
@@ -109,7 +109,7 @@ const Projects = () => {
 				<div className="card">
 					<img
 						className="project-image"
-						src={require('../images/fitzmartin.png')}
+						src={require('../images/fitzmartin.jpg')}
 						alt={'Dev Desk Queue'}
 					/>
 					<div

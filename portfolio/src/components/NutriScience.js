@@ -20,7 +20,7 @@ const NutriScience = ({ isShowing3, hide }) =>
 									<span aria-hidden="true">&times;</span>
 								</button>
 							</div>
-							<h2 className="connect-header">Guess Who</h2>
+							<h2 className="connect-header">NutriScience</h2>
 							<div className="connect-wrapper">
 								<div>
 									<h3>HTML | CSS | JavaScript | HubL </h3>
