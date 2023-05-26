@@ -1,53 +1,56 @@
-import React from "react";
-import ale_image from "../images/ale_profile.jpeg";
-import NavBar from "./NavBar";
-import Particle from "./Particle";
-import { IconContext } from "react-icons";
-import { FaFileDownload } from "react-icons/fa";
+import React from 'react';
+import ale_image from '../images/ale_profile.jpeg';
+import NavBar from './NavBar';
+import Particle from './Particle';
+import { IconContext } from 'react-icons';
+import { FaFileDownload } from 'react-icons/fa';
 
 const Home = () => {
-  return (
-    <div>
-      <div className="home">
-        <div className="hero-image">
-          <span>
-            <img
-              src={ale_image}
-              alt="Alejandro E. Rodriguez, sitting at Liberty University computer lab"
-            />
-          </span>
-        </div>
-        <div className="greeting">
-          <h3>Hi friends!</h3>
-          <h1>I'm Alejandro E. Rodriguez La Rosa</h1>
-          <p>
-            I am a Full Stack Web Developer. I live in Florida and I am willing
-            to relocate. As a developer I create responsive, accessible
-            functional websites and applications. As a personal mission, I
-            strive to empower and improve other’s outlook and circumstances.
-          </p>
-          <a
-            className="download"
-            href={
-              "https://drive.google.com/file/d/1mKMuZhd5ke5v3TZindkDf4z7SEwyHbwH/view?usp=sharing"
-            }
-            download
-          >
-            <span>Download Resume</span>
-            <IconContext.Provider value={{ className: "downloadIcon" }}>
-              <FaFileDownload />
-            </IconContext.Provider>
-          </a>
-        </div>
-        <div className="navigation">
-          <NavBar />
-        </div>
-      </div>
-      <div className="particles">
-        <Particle />
-      </div>
-    </div>
-  );
+	return (
+		<div>
+			<div className="home">
+				<div className="hero-image">
+					<span>
+						<img
+							src={ale_image}
+							alt="Alejandro E. Rodriguez, sitting at Liberty University computer lab"
+						/>
+					</span>
+				</div>
+				<div className="greeting">
+					<h3>Hi friends!</h3>
+					<h1>I'm Alejandro E. Rodriguez La Rosa</h1>
+					<p>
+						I am a Full Stack Web Developer. I live in Virginia and I
+						am willing to relocate. As a developer I create
+						responsive, accessible functional websites and
+						applications. As a personal mission, I strive to empower
+						and improve other’s outlook and circumstances.
+					</p>
+					<a
+						className="download"
+						href={
+							'https://drive.google.com/file/d/1UWCKGy_xkCvCAuXgp7GI5Vo5thlSSTmq/view?usp=share_link'
+						}
+						download
+					>
+						<span>Download Resume</span>
+						<IconContext.Provider
+							value={{ className: 'downloadIcon' }}
+						>
+							<FaFileDownload />
+						</IconContext.Provider>
+					</a>
+				</div>
+				<div className="navigation">
+					<NavBar />
+				</div>
+			</div>
+			<div className="particles">
+				<Particle />
+			</div>
+		</div>
+	);
 };
 
 export default Home;
