@@ -42,7 +42,7 @@ const Projects = () => {
 						id="connect"
 						onClick={toggle1}
 					>
-						<span>Click To Learn More!</span>
+						<span>Click To Learn More</span>
 						<ConnectOurKids isShowing1={isShowing1} hide={toggle1} />
 					</div>
 				</div>
@@ -57,7 +57,7 @@ const Projects = () => {
 						id="post-here"
 						onClick={toggle2}
 					>
-						<span>Click To Learn More!</span>
+						<span>Click To Learn More</span>
 						<PostHere isShowing2={isShowing2} hide={toggle2} />
 					</div>
 				</div>
@@ -72,7 +72,7 @@ const Projects = () => {
 						id="guess-who"
 						onClick={toggle3}
 					>
-						<span>Click To Learn More!</span>
+						<span>Click To Learn More</span>
 						<NutriScience isShowing3={isShowing3} hide={toggle3} />
 					</div>
 				</div>
@@ -87,7 +87,7 @@ const Projects = () => {
 						id="dev-desk-queue"
 						onClick={toggle4}
 					>
-						<span>Click To Learn More!</span>
+						<span>Click To Learn More</span>
 						<LinkUp isShowing4={isShowing4} hide={toggle4} />
 					</div>
 				</div>
@@ -102,7 +102,7 @@ const Projects = () => {
 						id="dev-desk-queue"
 						onClick={toggle5}
 					>
-						<span>Click To Learn More!</span>
+						<span>Click To Learn More</span>
 						<Spoc isShowing5={isShowing5} hide={toggle5} />
 					</div>
 				</div>
@@ -117,7 +117,7 @@ const Projects = () => {
 						id="dev-desk-queue"
 						onClick={toggle6}
 					>
-						<span>Click To Learn More!</span>
+						<span>Click To Learn More</span>
 						<FitzMartin isShowing6={isShowing6} hide={toggle6} />
 					</div>
 				</div>

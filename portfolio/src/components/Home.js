@@ -19,13 +19,13 @@ const Home = () => {
 				</div>
 				<div className="greeting">
 					<h3>Hi friends!</h3>
-					<h1>I'm Alejandro E. Rodriguez La Rosa</h1>
+					<h1>I'm Alejandro Rodriguez</h1>
 					<p>
-						I am a Full Stack Web Developer. I live in Virginia and I
-						am willing to relocate. As a developer I create
-						responsive, accessible functional websites and
-						applications. As a personal mission, I strive to empower
-						and improve other’s outlook and circumstances.
+						I am a Full Stack Web Developer. I specialize in crafting
+						responsive and accessible websites and applications that
+						go beyond aesthetics. My mission extends beyond coding; I
+						aim to empower and enhance the lives of others through my
+						work.
 					</p>
 					<a
 						className="download"

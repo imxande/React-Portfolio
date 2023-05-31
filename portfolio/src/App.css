@@ -17,12 +17,19 @@ img {
     width: 100%;
     border-radius: 30px;
     box-shadow: 10px 5px 5px rgb(45, 49, 48);
+    max-inline-size: 100%;
+    block-size: auto;
 }
 
 .greeting{
     margin-right: 100px;
     line-height: 50px;
-    color:#2d545e
+    color:#2d545e;
+    padding: 0 3em;
+  }
+
+.greeting .job_title {
+  font-size: 2em;
 }
 
 .greeting h3{

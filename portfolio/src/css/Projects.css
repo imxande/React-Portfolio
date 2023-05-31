@@ -17,11 +17,10 @@
     width: 100%;
 }
 
-
  .hidden-message{
     position: absolute;
     background-color: rgba(0, 0, 0, 0.8);
-    color: #eee;
+    color: #00eeff;
     transition: opacity .3s ease-in-out;
     opacity: 0;
     display: flex;
